@@ -12,7 +12,7 @@ try {
 
   $server->setClass('MyClass');
   $server->handle();
-}
+}      
 
 catch (SOAPFault $f) {
   print $f->faultstring;

@@ -6,5 +6,5 @@ $client = new SoapClient(null, array(
       'trace'    => 1 ));
 
 echo $return = $client->__soapCall("helloWorld",array("world"));
-?>
+?>   
 
